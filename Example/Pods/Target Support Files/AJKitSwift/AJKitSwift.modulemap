@@ -1,0 +1,6 @@
+framework module AJKitSwift {
+  umbrella header "AJKitSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

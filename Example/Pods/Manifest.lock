@@ -1,0 +1,16 @@
+PODS:
+  - AJKitSwift (0.1.0)
+
+DEPENDENCIES:
+  - AJKitSwift (from `../`)
+
+EXTERNAL SOURCES:
+  AJKitSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AJKitSwift: c31a827e5de9bd512baa1ec137c07e67fd8b00bb
+
+PODFILE CHECKSUM: eeebeb2b31fe75dac727c2220dc66c68dd8f1e67
+
+COCOAPODS: 1.7.5
