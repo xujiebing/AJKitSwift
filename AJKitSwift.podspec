@@ -23,22 +23,15 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'UIKit' do |kit|
-    kit.source_files = 'UIKit/Classes/UIKit/*.swift'
+    kit.source_files = 'AJKitSwift/Classes/UIKit/*.swift'
   end
   
   s.subspec 'Runtime' do |runtime|
-    runtime.source_files = 'Runtime/Classes/Runtime/*.swift'
+    runtime.source_files = 'AJKitSwift/Classes/Runtime/*.swift'
   end
   
   s.subspec 'Algorithm' do |algorithm|
-    algorithm.source_files = 'Algorithm/Classes/Algorithm/*.swift'
+    algorithm.source_files = 'AJKitSwift/Classes/Algorithm/*.swift'
   end
   
-  # s.resource_bundles = {
-  #   'AJKitSwift' => ['AJKitSwift/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
