@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* AJKitSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJKitSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75CAD28300B2F44F42124F68 /* AJKitSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AJKitSwift.podspec; path = ../AJKitSwift.podspec; sourceTree = "<group>"; };
+		75CAD28300B2F44F42124F68 /* AJKitSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJKitSwift.podspec; path = ../AJKitSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8392323E7EA27F79C35CA17B /* Pods_AJKitSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJKitSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		883A03D839863A0FFCDA8B68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		883A03D839863A0FFCDA8B68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A38A9AC3182DB516ACE83A99 /* Pods_AJKitSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJKitSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B6BBA097C04C6AC8DEA349 /* Pods-AJKitSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJKitSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-AJKitSwift_Example/Pods-AJKitSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EDE7B9C1EB95E607AFF6C32C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDE7B9C1EB95E607AFF6C32C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				49AB37DE21C58F4C95794E8D /* Pods-AJKitSwift_Tests.debug.xcconfig */,
 				5FD5061407086A03C02B8397 /* Pods-AJKitSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
