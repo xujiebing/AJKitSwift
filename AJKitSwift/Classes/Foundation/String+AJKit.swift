@@ -21,4 +21,10 @@ public extension String {
         }
         return UIApplication.shared.openURL(url);
     }
+    
+    func ajClassObject() -> AnyClass? {
+        let projectName = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
+        let classObj:AnyClass? = NSClassFromString(projectName + "." + self)
+        return classObj
+    }
 }

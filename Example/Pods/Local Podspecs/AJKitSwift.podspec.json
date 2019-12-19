@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AJKitSwift/Classes/**/*"
+  "default_subspecs": "Foundation",
+  "subspecs": [
+    {
+      "name": "Foundation",
+      "source_files": "AJKitSwift/Classes/Foundation/*.swift"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "AJKitSwift/Classes/UIKit/*.swift"
+    }
+  ]
 }

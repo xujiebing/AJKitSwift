@@ -26,12 +26,12 @@ TODO: Add long description of the pod here.
     kit.source_files = 'AJKitSwift/Classes/UIKit/*.swift'
   end
   
-  s.subspec 'Runtime' do |runtime|
-    runtime.source_files = 'AJKitSwift/Classes/Runtime/*.swift'
-  end
-  
-  s.subspec 'Algorithm' do |algorithm|
-    algorithm.source_files = 'AJKitSwift/Classes/Algorithm/*.swift'
-  end
+#  s.subspec 'Runtime' do |runtime|
+#    runtime.source_files = 'AJKitSwift/Classes/Runtime/*.swift'
+#  end
+#  
+#  s.subspec 'Algorithm' do |algorithm|
+#    algorithm.source_files = 'AJKitSwift/Classes/Algorithm/*.swift'
+#  end
   
 end

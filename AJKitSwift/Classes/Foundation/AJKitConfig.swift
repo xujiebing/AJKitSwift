@@ -5,8 +5,6 @@
 //  Created by 徐结兵 on 2019/12/1.
 //
 
-//import Foundation
-
 /// 日志打印，支持传入不同类型的多个参数
 /// - Parameter messages: 内容
 /// - Parameter file: 文件名

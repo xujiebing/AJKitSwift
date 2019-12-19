@@ -1,7 +1,9 @@
 use_frameworks!
 
 target 'AJKitSwift_Example' do
-  pod 'AJKitSwift', :path => '../'
+  pod 'AJKitSwift',
+  :subspecs => ['Foundation', 'UIKit'],
+  :path => '../'
 
   target 'AJKitSwift_Tests' do
     inherit! :search_paths
