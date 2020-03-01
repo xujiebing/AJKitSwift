@@ -8,6 +8,10 @@
 import Foundation
 
 public extension String {
+    
+    /// 通过safari打开链接
+    ///
+    /// - Returns: 是否可以打开链接
     func ajOpenInSafari() -> Bool {
         if self.isEmpty {
             return false
@@ -22,9 +26,15 @@ public extension String {
         return UIApplication.shared.openURL(url);
     }
     
-    func ajClassObject() -> AnyClass? {
-        let projectName = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
-        let classObj:AnyClass? = NSClassFromString(projectName + "." + self)
+    /// 根据类名和模块名获取AnyClass
+    ///
+    /// - Returns: AnyClass?
+    func ajClassObject(_ projectName: String?) -> AnyClass? {
+        var nameSpace = projectName
+        if nameSpace == nil {
+            nameSpace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
+        }
+        let classObj:AnyClass? = NSClassFromString(projectName! + "." + self)
         return classObj
     }
 }
