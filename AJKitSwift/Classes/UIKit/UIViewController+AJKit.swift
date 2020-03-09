@@ -10,7 +10,8 @@ import UIKit
 public extension UIViewController {
     class func ajCurrentViewController() -> UIViewController {
         var viewController = UIViewController.init()
-        let vc = UIApplication.shared.keyWindow!.rootViewController!
+        let vc = UIApplication.shared.delegate?.window!?.rootViewController
+//        let vc = UIApplication.shared.keyWindow!.rootViewController!
         if vc is UITabBarController {
             let tabbar = vc as! UITabBarController
             viewController = tabbar.selectedViewController!
@@ -18,10 +19,12 @@ public extension UIViewController {
             let nav = vc as! UINavigationController
             viewController = nav.visibleViewController!
         } else {
-            viewController = vc
+            viewController = vc!
         }
-        if let presentVC = viewController.presentedViewController {
-            viewController = presentVC
+        
+        if viewController is UINavigationController {
+            let nav = viewController as! UINavigationController
+            viewController = nav.visibleViewController!
         }
         return viewController;
     }

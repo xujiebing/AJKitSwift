@@ -7,14 +7,6 @@
 
 import Foundation
 
-open class AJViewModel: NSObject {
+open class AJViewModel: AJObject {
     
-    override init() {
-        super.init()
-        self.ajInitViewModel()
-    }
-    
-    open func ajInitViewModel() {
-        
-    }
 }

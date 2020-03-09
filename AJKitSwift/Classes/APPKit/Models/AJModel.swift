@@ -5,7 +5,7 @@
 //  Created by 徐结兵 on 2020/2/28.
 //
 
-open class AJModel: Convertible {
+open class AJModel: AJObject, Convertible {
     
-    required public init() {}
+    required public override init() {}
 }
