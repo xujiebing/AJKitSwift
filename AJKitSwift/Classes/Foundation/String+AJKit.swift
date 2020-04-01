@@ -37,4 +37,12 @@ public extension String {
         let classObj:AnyClass? = NSClassFromString(projectName! + "." + self)
         return classObj
     }
+    
+    func ajBundle() -> Bundle? {
+        guard let path = Bundle.main.path(forResource: self, ofType: "bundle") else {
+            return nil;
+        }
+        let pptBundle = Bundle.init(path: path)
+        return pptBundle;
+    }
 }

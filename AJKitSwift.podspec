@@ -26,12 +26,6 @@ TODO: Add long description of the pod here.
     kit.source_files = 'AJKitSwift/Classes/UIKit/*.swift'
   end
   
-  s.subspec 'APPKit' do |kit|
-    kit.source_files = 'AJKitSwift/Classes/APPKit/**/*.{swift,h}'
-    kit.dependency 'AJKitSwift/Foundation'
-    kit.dependency 'KakaJSON'
-  end
-  
 #  s.subspec 'Runtime' do |runtime|
 #    runtime.source_files = 'AJKitSwift/Classes/Runtime/*.swift'
 #  end
