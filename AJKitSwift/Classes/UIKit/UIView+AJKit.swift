@@ -9,6 +9,41 @@ import Foundation
 
 public extension UIView {
     
+    var width: CGFloat {
+        get {
+            return frame.size.width
+        }
+        set(value) {
+            frame.size.width = value
+        }
+    }
+    
+    var height: CGFloat {
+        get {
+            return frame.size.height
+        }
+        set(value) {
+            frame.size.height = value
+        }
+    }
+    
+    var x: CGFloat {
+        get {
+            return frame.origin.x
+        }
+        set(value) {
+            frame.origin.x = value
+        }
+    }
+    
+    var y: CGFloat {
+        get {
+            return frame.origin.y
+        }
+        set(value) {
+            frame.origin.y = value
+        }
+    }
     
     /// 添加圆角
     func ajCornerRadius(cornerRadius: CGFloat) {
