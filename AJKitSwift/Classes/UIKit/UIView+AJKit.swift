@@ -9,7 +9,7 @@ import Foundation
 
 public extension UIView {
     
-    var width: CGFloat {
+    var ajWidth: CGFloat {
         get {
             return frame.size.width
         }
@@ -18,7 +18,7 @@ public extension UIView {
         }
     }
     
-    var height: CGFloat {
+    var ajHeight: CGFloat {
         get {
             return frame.size.height
         }
@@ -27,7 +27,7 @@ public extension UIView {
         }
     }
     
-    var x: CGFloat {
+    var ajX: CGFloat {
         get {
             return frame.origin.x
         }
@@ -36,7 +36,7 @@ public extension UIView {
         }
     }
     
-    var y: CGFloat {
+    var ajY: CGFloat {
         get {
             return frame.origin.y
         }

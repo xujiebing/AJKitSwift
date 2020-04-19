@@ -26,6 +26,10 @@ TODO: Add long description of the pod here.
     kit.source_files = 'AJKitSwift/Classes/UIKit/*.swift'
   end
   
+  s.subspec 'App' do |app|
+    app.source_files = 'AJKitSwift/Classes/App/*.swift'
+  end
+  
 #  s.subspec 'Runtime' do |runtime|
 #    runtime.source_files = 'AJKitSwift/Classes/Runtime/*.swift'
 #  end
